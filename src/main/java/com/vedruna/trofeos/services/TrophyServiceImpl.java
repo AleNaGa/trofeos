@@ -3,12 +3,15 @@ package com.vedruna.trofeos.services;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.vedruna.trofeos.DTO.CreateTrophyDTO;
 import com.vedruna.trofeos.DTO.TrophyDTO;
 import com.vedruna.trofeos.persistance.model.Trophy;
 import com.vedruna.trofeos.persistance.repository.TrophyRepositoryI;
 
+
+@Service
 public class TrophyServiceImpl implements TrophyServiceI {
 
     @Autowired

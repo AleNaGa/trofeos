@@ -16,6 +16,7 @@ import com.vedruna.trofeos.DTO.CreateTrophyDTO;
 import com.vedruna.trofeos.DTO.TrophyDTO;
 import com.vedruna.trofeos.services.TrophyServiceI;
 
+
 @CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/v1/trophies")
