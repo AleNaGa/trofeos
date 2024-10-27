@@ -1,0 +1,165 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Trophies",
+    "collectionId": "929e55ec-a57d-4a5e-9a2e-6f8c8d1f5c58",
+    "dateExported": "2024-10-27T13:29:22.454Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "745012e8-ff64-4422-8847-3d742b09e27e",
+            "colId": "929e55ec-a57d-4a5e-9a2e-6f8c8d1f5c58",
+            "containerId": "",
+            "name": "testJugadores",
+            "url": "localhost:8080/api/v1/players/test",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-10-27T13:19:11.169Z",
+            "modified": "2024-10-27T13:19:52.783Z",
+            "headers": []
+        },
+        {
+            "_id": "efb35517-8405-41aa-8d63-3b1fe9c5f19a",
+            "colId": "929e55ec-a57d-4a5e-9a2e-6f8c8d1f5c58",
+            "containerId": "",
+            "name": "insertJugador",
+            "url": "localhost:8080/api/v1/players/insert",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-10-27T13:20:07.662Z",
+            "modified": "2024-10-27T13:22:59.980Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Ona\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "51556389-b04b-45f2-8301-772045801985",
+            "colId": "929e55ec-a57d-4a5e-9a2e-6f8c8d1f5c58",
+            "containerId": "",
+            "name": "getAll",
+            "url": "localhost:8080/api/v1/players",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-10-27T13:21:08.060Z",
+            "modified": "2024-10-27T13:21:19.124Z",
+            "headers": []
+        },
+        {
+            "_id": "bc8d09c2-617c-4b64-9eca-a8989ea531b8",
+            "colId": "929e55ec-a57d-4a5e-9a2e-6f8c8d1f5c58",
+            "containerId": "",
+            "name": "getByName",
+            "url": "localhost:8080/api/v1/players/nombre/Alexia",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-10-27T13:21:28.160Z",
+            "modified": "2024-10-27T13:23:18.328Z",
+            "headers": []
+        },
+        {
+            "_id": "f0850c57-086c-4994-a2ea-23df762d47df",
+            "colId": "929e55ec-a57d-4a5e-9a2e-6f8c8d1f5c58",
+            "containerId": "",
+            "name": "getById",
+            "url": "localhost:8080/api/v1/players/id/1",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-10-27T13:21:50.972Z",
+            "modified": "2024-10-27T13:21:57.235Z",
+            "headers": []
+        },
+        {
+            "_id": "df30cd07-8560-46db-a099-243691091090",
+            "colId": "929e55ec-a57d-4a5e-9a2e-6f8c8d1f5c58",
+            "containerId": "",
+            "name": "deletePJugador",
+            "url": "localhost:8080/api/v1/players/delete/1",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-10-27T13:22:08.542Z",
+            "modified": "2024-10-27T13:22:29.608Z",
+            "headers": []
+        },
+        {
+            "_id": "fc2ee748-92e1-4a0f-bf0b-0453763ee8a1",
+            "colId": "929e55ec-a57d-4a5e-9a2e-6f8c8d1f5c58",
+            "containerId": "",
+            "name": "testTrophy",
+            "url": "localhost:8080/api/v1/trophies/test",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-10-27T13:23:44.733Z",
+            "modified": "2024-10-27T13:24:03.297Z",
+            "headers": []
+        },
+        {
+            "_id": "4eb74784-b46b-42b0-9224-af5017580aea",
+            "colId": "929e55ec-a57d-4a5e-9a2e-6f8c8d1f5c58",
+            "containerId": "",
+            "name": "insertTrophy",
+            "url": "localhost:8080/api/v1/trophies/insert",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-10-27T13:24:13.868Z",
+            "modified": "2024-10-27T13:25:15.181Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Copa de la reina\",\n  \"description\": \"Haber ganado el torneo Español principal\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "03abc8e3-1320-48ce-b6f2-ed0a449ee6a2",
+            "colId": "929e55ec-a57d-4a5e-9a2e-6f8c8d1f5c58",
+            "containerId": "",
+            "name": "getAllTrophies",
+            "url": "localhost:8080/api/v1/trophies",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-10-27T13:25:26.027Z",
+            "modified": "2024-10-27T13:25:31.890Z",
+            "headers": []
+        },
+        {
+            "_id": "5302d2e2-26e6-49dc-80e7-f13d3bb954d2",
+            "colId": "929e55ec-a57d-4a5e-9a2e-6f8c8d1f5c58",
+            "containerId": "",
+            "name": "getById",
+            "url": "localhost:8080/api/v1/trophies/id/3",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-10-27T13:25:42.781Z",
+            "modified": "2024-10-27T13:26:05.199Z",
+            "headers": []
+        },
+        {
+            "_id": "c9530846-2b05-4885-95db-fab25f3cac8e",
+            "colId": "929e55ec-a57d-4a5e-9a2e-6f8c8d1f5c58",
+            "containerId": "",
+            "name": "getByName",
+            "url": "localhost:8080/api/v1/trophies/title/Champions",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2024-10-27T13:26:25.003Z",
+            "modified": "2024-10-27T13:26:38.106Z",
+            "headers": []
+        },
+        {
+            "_id": "d108a454-14a4-4924-984c-df78651c4342",
+            "colId": "929e55ec-a57d-4a5e-9a2e-6f8c8d1f5c58",
+            "containerId": "",
+            "name": "GiveTrophyToPlayer",
+            "url": "localhost:8080/api/v1/players/darTrofeo/jugador/5/trofeo/2",
+            "method": "PUT",
+            "sortNum": 130000,
+            "created": "2024-10-27T13:27:11.362Z",
+            "modified": "2024-10-27T13:28:15.177Z",
+            "headers": []
+        }
+    ],
+    "ref": "JOq2s_XCXbhVFOmF3zjDpkRuorNaaY1_Cob6KNFj9M0VWsHmuaOfRSzvyO6F3K359EXjj9YNS2185gQT964iag"
+}

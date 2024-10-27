@@ -1,0 +1,14 @@
+Crear una api rest que tenga los siguientes endpoints:
+1. Consultar todos los jugadores (Deben verse sus trofeos)
+
+2. Consultar un solo jugador (Deben verse sus trofeos)
+
+ 3. Consultar todos los trofeos (No deben verse los jugadores)
+
+4. Crear nuevo jugador (Debe inicializarse su colección de trofeos a vacía)
+
+  5. Crear nuevo trofeo (Debe inicializarse su colección de jugadores a vacía )
+
+6. Otorgarle un trofeo a un jugador
+
+7. Borrar jugador (Deben borrarse los trofeos de ese jugador, pero no el trofeo de forma general)
